@@ -27,7 +27,7 @@ $(function(){
 		$('.topImg').css('top',100 -($(window).scrollTop()/1.5));
 		$('.nav').css('top',593 - $(window).scrollTop()/1.2);
 		$('.nav').stop();
-		$('.nav').css('opacity', (1000-$(window).scrollTop())*0.001)
+		//$('.nav').css('opacity', (1000-$(window).scrollTop())*0.001)
 		
 		// var scrollTop = $(window).scrollTop();
 		// $(".headDiv").css('transform','translate3d(0,' + scrollTop/1.5 + 'px,0)');

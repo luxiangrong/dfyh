@@ -1,4 +1,4 @@
-.indexPart1{background:url(../image/indexPart1.gif) left repeat-y; min-height:1998px; _height:1998px; position:relative; z-index: 3}
+.indexPart1{background:url(../image/indexPart1.gif) left repeat-y; min-height:1998px; _height:1998px; position:relative; z-index: 30}
 .indexPart1 .tab{position:absolute; left:0px; top:0px; width:71px; overflow:hidden; text-align:center;}
 .indexPart1 .tab li{float:left; width:71px; padding:30px 0 29px 0; border-top:#ddd solid 1px;}
 .indexPart1 .tab img{display:none;}
@@ -22,7 +22,7 @@
 .headDiv .logo{position:absolute; left:165px; top:17px;}
 .topImg{position:fixed; z-index:10; left:50%; margin-left:-195px; top:100px;}
 
-.nav{height:422px; top: 593px; left: 50%; margin-left: -545px; position:fixed; z-index:2; background-color: #fff;}
+.nav{height:422px; top: 593px; left: 50%; margin-left: -545px; position:fixed; z-index:21; }
 .nav ul {height: 100%; position:relative; top: 13px; width: 100%;}
 .nav li{position:absolute; border: none;}
 .nav .li_01{left:62px; top:0px;}
