@@ -22,7 +22,12 @@ $(function() {
 	$(window).scroll(function() {
 		$('.headDiv').css('top', -$(window).scrollTop() / 2.5);
 		$('.topImg').css('top', 100 - ($(window).scrollTop() / 1.5));
-		$('.nav').css('top', 593 - $(window).scrollTop() / 1.2);
+		if($(window).scrollTop() > 235) {
+			$('.nav').css('top', 632 - $(window).scrollTop());
+		} else {
+			$('.nav').css('top', 593 - $(window).scrollTop() / 1.2);
+		}
+		
 		$('.nav').stop();
 		//$('.nav').css('opacity', (1000-$(window).scrollTop())*0.001)
 
